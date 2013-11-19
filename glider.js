@@ -238,7 +238,7 @@
               }
               return moveHandle(element, xPosition);
             });
-            return $document.on('mouseup', function() {
+            $document.on('mouseup', function() {
               dragging = false;
               if (deferUpdate) {
                 updateValue();
